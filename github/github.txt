@@ -8,4 +8,14 @@ Github MD文件格式
 参加开源开发的模式是什么样子？
 如果开源代码托管在Github上，是否只要创建pull request同步代码就可以了
 
+读了庄表伟的开源社区的三代模式：
+1. 第一代是Maillist
+2. 第二代是Web类协作工具
+3. 第三代是Github
+
+下面需要结合实际的项目来理解一下：
+1. Linux社区
+2. Openstack社区
+3. Tensorflow社区
+
 如果代码没有托管在Github上，又应该是一种怎么样的开发模式呢？
