@@ -16,3 +16,8 @@ DNAT：Destination Network Address Translation，目的地址转换。目的地�
 
 公有云托管场景：
 在公有云上租用一批虚拟机，提供公共服务。这个场景类似于公司内网向Internet公网提供服务，这批虚拟机需要有效管理，而且需要接入公司网络，类似于公司不同地域办公区网络的互通。
+
+不同地域办公区互联场景：园区到园区、家庭到园区网
+实现技术：
+1. 园区到园区网：专线、IPSEC VPN（Site to Site）、MPLS-VPN
+2. 家庭到园区网：IPSEC VPN（Client to Site）
