@@ -1,14 +1,10 @@
 chrome浏览器插件 SwitchySharp
 firefox浏览器插件 FroxProxy
-自动更新系统代理配置 sfg
-XX使用挺方便的，能够启动全局代理、根据过滤列表启动全局代理，可以部署自己的appid，所有管理操作都可以在浏览器中配置完成
 
-手机sfg、自由浏览
-ssh agent
-play商店一直不可用
+PC代理：
+1. 自动更新系统代理配置 sfg
+2. XX使用挺方便的，能够启动全局代理、根据过滤列表启动全局代理，可以部署自己的appid，所有管理操作都可以在浏览器中配置完成
 
-IE/Chrome/Firefox都可以安装AdblockPlus插件
-
-NAT：
-SNAT：Source Network Address Translation，源地址转换
-DNAT：Destination Network Address Translation，目的地址转换。目的地址可以转换到一组IP，用于实现负载均衡。
+手机代理：
+1. 手机sfg
+2. 自由浏览
