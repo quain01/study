@@ -1,0 +1,11 @@
+网络学习路线图：
+1. 业务使用场景：不同的网络分区隔离，及跨网络分区的访问方式；
+   a. 网络分区边界管理
+   b. 从内网访问外网的方式
+   c. 如何在内网服务器上向外网提供服务
+2. 云计算对网络场景的支持技术：VPC、VPC Peer、安全的保障；
+3. 技术实现原理：尤其是Linux软件技术实现原理，NameSpace、iptable、OVS等；
+
+NAT：
+SNAT：Source Network Address Translation，源地址转换
+DNAT：Destination Network Address Translation，目的地址转换。目的地址可以转换到一组IP，用于实现负载均衡。
