@@ -6,3 +6,9 @@ XX使用挺方便的，能够启动全局代理、根据过滤列表启动全局
 手机sfg、自由浏览
 ssh agent
 play商店一直不可用
+
+IE/Chrome/Firefox都可以安装AdblockPlus插件
+
+NAT：
+SNAT：Source Network Address Translation，源地址转换
+DNAT：Destination Network Address Translation，目的地址转换。目的地址可以转换到一组IP，用于实现负载均衡。
