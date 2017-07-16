@@ -9,3 +9,10 @@
 NAT：
 SNAT：Source Network Address Translation，源地址转换
 DNAT：Destination Network Address Translation，目的地址转换。目的地址可以转换到一组IP，用于实现负载均衡。
+
+实验室应用场景：
+公司内部有很多实验室，实验室内部使用小网，部署实验设备，这些实验设备要能够和公司内大网设备互通。这个场景类似于公司内网和Internet公网的关系。
+实现方式：VPN
+
+公有云托管场景：
+在公有云上租用一批虚拟机，提供公共服务。这个场景类似于公司内网向Internet公网提供服务，这批虚拟机需要有效管理，而且需要接入公司网络，类似于公司不同地域办公区网络的互通。
