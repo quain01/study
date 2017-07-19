@@ -9,3 +9,6 @@ Windows SSH Server：使用FreeSSHd软件，可以在windows上启动SSD Server�
 ssh agent：JuiceSSH
 sftp agent：AndFTP
 play商店一直不可用
+
+脑图软件是采用json格式描述整个文件的树状视图，向云端上传采用全量传输方式。
+分析方法：安装winpcap、windump、wireshark，使用wireshark抓包分析。
