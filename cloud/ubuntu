@@ -1,0 +1,13 @@
+Ubuntu桌面配置
+
+参考：http://www.linuxidc.com/Linux/2015-04/116446.htm
+
+sudo apt-get install xrdp
+sudo apt-get install vnc4server tightvncserver 
+sudo apt-get install xubuntu-desktop 
+echo xfce4-session >~/.xsession 
+sudo service xrdp restart
+
+遗留问题：xdmcp怎么连接
+https://wiki.ubuntu.com/xdmcp
+参考这个连接看是否能够搞定
