@@ -15,3 +15,8 @@
 发行版选择CentOS，服务器OS应该比较稳定。
 
 虚拟化软件使用什么：Windows上可以使用VMware Player和Virtual Box，选择Virtual Box。
+
+配置过程：
+1. 下载virturl box，并安装
+2. 下载CentOS 7.3 ISO镜像
+3. 创建虚拟机，使用CentOS 7.3 ISO引导，完成安装
