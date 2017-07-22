@@ -20,3 +20,8 @@
 1. 下载virturl box，并安装
 2. 下载CentOS 7.3 ISO镜像
 3. 创建虚拟机，使用CentOS 7.3 ISO引导，完成安装
+
+遗留问题：
+1. Chrome浏览器在linux是否可以使用
+2. Linux中的中文输入法
+试着在浏览器窗口中下载chrome、google拼音看是否能够成功
