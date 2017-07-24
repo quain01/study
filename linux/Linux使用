@@ -23,8 +23,16 @@
 4. 配置输入法为ibus 智能拼音输入法
 5. 修改系统字体设置为wenquanyi
 6. 修改firefox的字体设置为wenquanyi
+7. 下载XX，unzip，./start，开启浏览器，下载证书
 
 遗留问题：
 1. Chrome浏览器在linux是否可以使用
 2. Linux中的中文输入法
 试着在浏览器窗口中下载chrome、google拼音看是否能够成功
+
+字体知识：
+wenquanyi zen hei 文泉驿正黑
+wenquanyi zen hei mono 文泉驿等宽正黑
+wenquanyi zen hei sharp 文泉驿点阵正黑
+wenquanyi micro hei 文泉驿微米黑
+wenquanyi micro hei mono 文泉驿等宽微米黑
