@@ -20,6 +20,9 @@
 1. 下载virturl box，并安装
 2. 下载CentOS 7.3 ISO镜像
 3. 创建虚拟机，使用CentOS 7.3 ISO引导，完成安装
+4. 配置输入法为ibus 智能拼音输入法
+5. 修改系统字体设置为wenquanyi
+6. 修改firefox的字体设置为wenquanyi
 
 遗留问题：
 1. Chrome浏览器在linux是否可以使用
