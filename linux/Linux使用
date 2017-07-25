@@ -44,7 +44,7 @@ yum命令：
 远程登录：
 1. xrdp：使用windows mstsc登录。ubuntu下安装xrdp服务，配置登录桌面为xfce，即可登录。
 2. vnc：使用vncviewer登录。centos下安装tigervnc、tigervnc-server，启动vncserver，即可登录。
-3. dmcp：使用xbrower（xmanager中的组件）。suse下配置gdm，即可登录。
+3. dmcp：使用xbrower（xmanager中的组件）。CentOS下安装并配置gdm，即可登录。
    参考：https://www.zybuluo.com/wuzhimang/note/392271
 
 遗留问题：
