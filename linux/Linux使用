@@ -46,6 +46,20 @@ yum命令：
 2. vnc：使用vncviewer登录。centos下安装tigervnc、tigervnc-server，启动vncserver，即可登录。
 3. dmcp：使用xbrower（xmanager中的组件）。CentOS下安装并配置gdm，即可登录。
    参考：https://www.zybuluo.com/wuzhimang/note/392271
+   yum install lightdm
+   vi /etc/lightdm/lightdm.conf
+      [XDMCPServer]
+      enabled=true
+      port=177
+   systemctl disable gdm
+   systemctl enable lightdm
+   systemctl stop gdm
+   systemctl start lightdm
+   systemctl status lightdm
+   systemctl stop firewalld.service
+   systemctl status firewalld.service
+   vi /etc/resolv.conf
+      nameserver xx.xx.xx.xx
 
 遗留问题：
 1. Chrome浏览器在linux是否可以使用
