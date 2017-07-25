@@ -25,6 +25,7 @@
    解决方案：可以使用yum grouplist查找到桌面环境的group包，使用yum groupinstall重新安装，即可解决该问题
 5. 修改系统字体设置为wenquanyi
 6. 修改firefox的字体设置为wenquanyi
+   碰到的问题：firefox的所有页面都无法打开，删除系统的firefox，从网上下载最新版本并安装解决了问题
 7. 下载XX，unzip，./start，开启浏览器，下载证书
 
 字体知识：
