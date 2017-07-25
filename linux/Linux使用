@@ -21,14 +21,11 @@
 2. 下载CentOS 7.3 ISO镜像
 3. 创建虚拟机，使用CentOS 7.3 ISO引导，完成安装
 4. 配置输入法为ibus 智能拼音输入法
+   可能碰到的问题：桌面环境安装不全，导致配置失败
+   解决方案：可以使用yum grouplist查找到桌面环境的group包，使用yum groupinstall重新安装，即可解决该问题
 5. 修改系统字体设置为wenquanyi
 6. 修改firefox的字体设置为wenquanyi
 7. 下载XX，unzip，./start，开启浏览器，下载证书
-
-遗留问题：
-1. Chrome浏览器在linux是否可以使用
-2. Linux中的中文输入法
-试着在浏览器窗口中下载chrome、google拼音看是否能够成功
 
 字体知识：
 wenquanyi zen hei 文泉驿正黑
@@ -37,7 +34,20 @@ wenquanyi zen hei sharp 文泉驿点阵正黑
 wenquanyi micro hei 文泉驿微米黑
 wenquanyi micro hei mono 文泉驿等宽微米黑
 
+yum命令：
+1. yum grouplist：查看可用的软件组
+2. yum groupinfo：查看软件组信息
+3. yum groupinstall：安装一组软件
+4. yum clean all：修改安装源配置后，使用本命令清楚本地缓存信息
+5. yum makecache：修改安装源配置后，使用该命令刷新本地缓存
+
 远程登录：
 1. xrdp：使用windows mstsc登录。ubuntu下安装xrdp服务，配置登录桌面为xfce，即可登录。
 2. vnc：使用vncviewer登录。centos下安装tigervnc、tigervnc-server，启动vncserver，即可登录。
 3. dmcp：使用xbrower（xmanager中的组件）。suse下配置gdm，即可登录。
+   参考：https://www.zybuluo.com/wuzhimang/note/392271
+
+遗留问题：
+1. Chrome浏览器在linux是否可以使用
+2. Linux中的中文输入法
+试着在浏览器窗口中下载chrome、google拼音看是否能够成功
