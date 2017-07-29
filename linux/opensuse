@@ -1,0 +1,14 @@
+硬盘安装
+
+title openSUSE Install
+  root (hdX,y)
+  kernel (hdX,Y)/linux
+  initrd (hdX,Y)/initrd
+
+配置suse远程桌面：启动DM的远程访问、Root登录，开启防火墙端口
+Open a terminal as root
+Launch: yast2
+Click on: System > /etc/sysconfig Editor
+Desktop > Display manager > DISPLAY_MANAGER_REMOTE_ACCESS > yes
+Firewall > SuSEfirewall2 > FW_SERVICES_EXT_UDP > 177
+Click Finish
