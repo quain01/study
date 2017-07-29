@@ -6,3 +6,4 @@
     - [表格和公式](http://blog.csdn.net/whqet/article/details/44277965)
     - [UML图](http://blog.csdn.net/whqet/article/details/44281463)
     - [快速上手](http://blog.csdn.net/whqet/article/details/44318301)
+2. [Markdown教程](https://github.com/fan2/Markdown/blob/master/Markdown%20Tutorials.md)
