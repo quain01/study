@@ -5,3 +5,6 @@
 - Git-scm
 - Winpcap
 - Wireshark
+- Putty
+- Winscp
+- xmanager
