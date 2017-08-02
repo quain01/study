@@ -25,3 +25,7 @@
 # 遗留问题
 
 1. 如何使用xdmcp登录ubuntu
+
+    > https://wiki.ubuntu.com/xdmcp
+    > 参考这个连接看是否能够搞定
+ 
