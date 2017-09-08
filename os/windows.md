@@ -79,6 +79,18 @@ FreeSSHd是windows上的一款ssh服务器。
 
 FreeSSHd在Windows上安装之后，需要以管理员身份运行，否则无法修改配置文件，就无法配置用户，会导致无法使用。
 
+## 文件夹同步
+
+[文件夹同步工具对比](https://tonysh-thu.blogspot.com/2012/02/blog-post_18.html)
+
+最终结论：
+1. 简单一次性的文件同步用轻量级的Pathsync。
+2. 大量复杂的文件同步用Goodsync更好，如果有不用盗版软件的洁癖，或有linux需求可以用FreeFileSync代替，效果也很不错。
+
+对于我来说。。。。。。显然是FreeFileSync了。。。
+
+[freefilesync下载](https://www.freefilesync.org/download.php)
+
 ## PC问题处理
 
 chrome浏览器所有页面都崩溃，把百度相关软件卸载后，删除windows驱动目录下bd0001.sys后，重启Windows恢复
