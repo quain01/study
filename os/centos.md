@@ -19,6 +19,8 @@
     dd if=/dev/sda of=backup bs=512 count=64   用于备份
     dd if=backup of=/dev/sda bs=512 count=64   用于恢复
     ```
+3. 服务器中RAID卡分为直通卡、非直通卡。对于直通卡，硬盘可以不做RAID，在OS中直接使用；对于非直通卡，需要做RAID，才能在OS中使用，可以对每块硬盘做RAID0，效果和直通给OS使用类似。但是换盘后，要重启服务器，到RAID卡配置界面进行RAID配置，才能使用，无法支持热插拔。
+4. 服务器中LVM的使用，一个VG中配置多个PV，相当于对所有PV做了一个RAID0，在单个PV故障时，会导致整个VG上所有LV无法使用。
 
 # 故障处理
 
