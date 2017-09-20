@@ -19,3 +19,10 @@
     dd if=/dev/sda of=backup bs=512 count=64   用于备份
     dd if=backup of=/dev/sda bs=512 count=64   用于恢复
     ```
+
+# 故障处理
+
+1. 服务器中有硬盘（非系统盘）故障，该硬盘上的文件系统无法挂载，导致所有文件系统变成只读，系统盘中的/etc/fstab无法修改。使用如下命令重新挂载，并修改/etc/fstab。
+    ```
+    # mount -o remount rw /
+    ```
