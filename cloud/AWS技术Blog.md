@@ -1,3 +1,18 @@
+# [使用 Amazon Lex 和 Amazon Alexa 创建问答自动程序](https://aws.amazon.com/cn/blogs/china/creating-a-question-and-answer-bot-with-amazon-lex-and-amazon-alexa/)
+
+通过QnAbot应用来示例Lex和Alexa的使用。
+
+[《使用Amazon Lex构建聊天和文本应用接口》](http://www.infoq.com/cn/news/2016/12/AWS-LEX-BOT)解释了Lex的基本功能、概念模型。Lex实现了自然语言理解与自动语音识别，Lex中的概念包括：
+
+- 机器人（Bot）。“机器人”中包括了会话中的所有组件。
+- 意图（Intent）。“意图”表示机器人用户想要达到的目标（例如购买机票、预约会面或是获取天气预报，诸如此类）。
+- 表述（Utterance）。用户所说的或是所输入的一条短句就构成了一个“表述”，它会生成一个“意图”。两个简单的例子就是“我要预定酒店房间”和“我要订花”。
+- 数据槽位（Slot）。为实现“意图”，用户必须提供的一部分数据，这些数据称为一个“槽位”。“槽位”是有类型的，例如一个旅行机器人中可能会具有城市、州或机场等“槽位”。
+- 提示（Prompt）。“提示”是为实现“意图”而向用户请求提供数据（或是数据槽位）的问题。
+- 实现（Fulfillment）。“实现”是一种业务逻辑，具体落实用户的意图。Lex支持在“实现”中使用AWS Lambda服务。
+
+[AWS Lex介绍及入门](https://docs.aws.amazon.com/zh_cn/lex/latest/dg/what-is.html)
+
 # [按秒计费 2017/09/21](https://aws.amazon.com/cn/blogs/china/new-per-second-billing-for-ec2-instances-and-ebs-volumes/)
 
 总结：特定类型的EC2和EBS支持按秒计费，使用EC2/EBS的服务也能够获得按秒计费能力。
