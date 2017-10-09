@@ -68,3 +68,50 @@ Recognition是一个图像识别服务，根据图像内容，关联到一组标
 ![狗的识别](img/aws-rekognition-1214-2.jpg)
 
 ![人脸识别](img/aws-rekognition-1214-3.jpg)
+
+# [Amazon EC2 Systems Manager让你轻松管理AWS混合云](https://aws.amazon.com/cn/blogs/china/amazon-ec2-systems-manager-makes-it-easy-to-manage-aws-hybrid-cloud/)
+
+# [你需要知道的关于高IO EC2的事儿](https://aws.amazon.com/cn/blogs/china/what-you-need-to-know-about-high-io-ec2/)
+
+文中提到了使用高IO的VM，存储网络选择，看看是否有25Gbps网络的描述。
+
+# [光环新网运营的AWS中国（北京）区域HPC集群创建](https://aws.amazon.com/cn/blogs/china/fast-build-high-performance-computing-hpc-clusters-in-aws-china/)
+
+高性能计算，看看是否跟高性能服务器有相关的内容。
+
+# [新增 – GPU 支持的 Amazon AppStream 2.0 流式处理实例](https://aws.amazon.com/cn/blogs/china/new-gpu-powered-streaming-instances-for-amazon-appstream-2-0/)
+
+流式处理实例是什么东西，用于什么场景，看起来像是图像识别的专用EC2示例。
+
+# [Lambda@Edge – 在边缘智能地处理 HTTP 请求](https://aws.amazon.com/cn/blogs/china/lambdaedge-intelligent-processing-of-http-requests-at-the-edge/)
+
+貌似是边缘计算的内容。
+
+# [如何在Amazon EC2 Container Service上实现服务高可用的自动伸缩](https://aws.amazon.com/cn/blogs/china/how-to-implement-high-availability-automatic-scaling-of-services-on-ecs/)
+
+# [基于Amazon EC2 Container Service构建安全高可用的Docker私有库](https://aws.amazon.com/cn/blogs/china/using-amazon-ecs-to-build-private-docker-hub/)
+
+# [免费试用 Amazon WorkSpaces 最长达 2 个月时间](https://aws.amazon.com/cn/blogs/china/try-amazon-workspaces-at-no-charge-for-up-to-2-months/)
+
+看起来是一个在线的工作环境。
+
+# [EC2 内存中处理更新：具有 4 到 16 TB 内存 + SAP HANA 横向扩展到 34 TB 的实例](https://aws.amazon.com/cn/blogs/china/ec2-in-memory-processing-update-instances-with-4-to-16-tb-of-memory-scale-out-sap-hana-to-34-tb/)
+
+AWS提供的大规格EC实例包括什么规格，用于什么场景？AWS在提供的EC2实例规格发展趋势是什么样子，目前在做哪些事情？
+
+# [敬请期待——Amazon EC2 Elastic GPU](https://aws.amazon.com/cn/blogs/china/in-the-work-amazon-ec2-elastic-gpu/)
+
+
+# [Amazon Lightsail – 兼具 AWS 的强大功能与 VPS 的简易性](https://aws.amazon.com/cn/blogs/china/amazon-lightsail-the-power-of-aws-the-simplicity-of-a-vps/)
+
+用于和VPS对标的服务，分配一个VM，能够选择VM所使用的OS类型及应用程序（例如LAMP等）。
+
+参考InfoQ上的这篇文章[亚马逊推出了Lightsail虚拟专用服务器](http://www.infoq.com/cn/news/2016/12/AWS-Launch-Lightsail-VPS)
+
+# [GPU为Amazon Graphics WorkSpaces提供助力](https://aws.amazon.com/cn/blogs/china/new-gpu-powered-amazon-graphics-workspaces/)
+
+
+# [分布式神经网络框架 CaffeOnSpark在AWS上的部署过程](https://aws.amazon.com/cn/blogs/china/caffeonspark/)
+
+# []()
+# []()
