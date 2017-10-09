@@ -61,4 +61,10 @@ SAM Local是一款本地安装的开发工具，用于支持Serverless应用程�
 
 发布了一些AWS培训类的视频
 
-# TestTest
+# [Amazon Rekognition – 深度学习支持下的图像检测与识别服务](https://aws.amazon.com/cn/blogs/china/amazon-rekognition/)
+
+Recognition是一个图像识别服务，根据图像内容，关联到一组标签。该博客中给出了两个例子，一个是狗的识别，一个是人脸的识别。
+
+![狗的识别](img/aws-rekognition-1214-2.jpg)
+
+![人脸识别](img/aws-rekognition-1214-3.jpg)
