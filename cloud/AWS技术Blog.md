@@ -75,6 +75,9 @@ Recognition是一个图像识别服务，根据图像内容，关联到一组标
 
 文中提到了使用高IO的VM，存储网络选择，看看是否有25Gbps网络的描述。
 
+虚拟机的带宽限制：
+![虚拟机带宽](img/EC2-IO-Bandwidth-3.png)
+
 # [光环新网运营的AWS中国（北京）区域HPC集群创建](https://aws.amazon.com/cn/blogs/china/fast-build-high-performance-computing-hpc-clusters-in-aws-china/)
 
 高性能计算，看看是否跟高性能服务器有相关的内容。
@@ -97,10 +100,54 @@ Recognition是一个图像识别服务，根据图像内容，关联到一组标
 
 # [EC2 内存中处理更新：具有 4 到 16 TB 内存 + SAP HANA 横向扩展到 34 TB 的实例](https://aws.amazon.com/cn/blogs/china/ec2-in-memory-processing-update-instances-with-4-to-16-tb-of-memory-scale-out-sap-hana-to-34-tb/)
 
-AWS提供的大规格EC实例包括什么规格，用于什么场景？AWS在提供的EC2实例规格发展趋势是什么样子，目前在做哪些事情？
+AWS提供的大规格EC2实例包括什么规格，用于什么场景？AWS在提供的EC2实例规格发展趋势是什么样子，目前在做哪些事情？
+
+![EC2 Scale Up and Scale Out](img/sap_scale_out_34tb_pic_8.png)
+我们会继续努力，让 AWS 成为运行生产 SAP 应用程序的更好平台。下面是我们正在大力改进的几个方面：
+
+- 更大的 SAP HANA 集群 – 您现在可以使用高达 17 个节点 (34 TB 内存) 构建横向扩展 SAP HANA 集群。
+- 4 TB 实例 – 即将推出的 x1e.32xlarge 实例将提供 4 TB 内存。128 个 vCPU (4 个 2.3 GHz Intel® Xeon® E7 8880 v3 处理器)
+- 8 到 16 TB 实例 – 最高具有 16 TB 内存的实例正在开发中。
+
+```
+Intel® Xeon® Processor E7-8880 v3
+45M Cache, 2.30 GHz
+
+Essentials
+Status: Launched
+Launch Date: Q2'15
+Lithography: 22 nm
+Recommended Customer Price: $5895.00
+
+Performance
+# of Cores: 18
+# of Threads: 36
+Processor Base Frequency: 2.30 GHz
+Max Turbo Frequency: 3.10 GHz
+```
+
+[Amazon EC2 X1 实例](https://aws.amazon.com/cn/ec2/instance-types/x1/)
+专为云中的大规模内存中应用程序和高性能数据库而打造
+
+X1 实例可提供高达 25Gbps 的网络带宽。此外，X1 实例还具有高达 14Gbps 的 Amazon Elastic Block Store (Amazon EBS) 专用带宽
+
+[增强联网类型](https://docs.aws.amazon.com/zh_cn/AWSEC2/latest/WindowsGuide/enhanced-networking.html)
+
+根据您的实例类型，可以使用以下机制之一启用增强联网：
+
+- Intel 82599 虚拟功能 (VF) 接口
+对于受支持的实例类型，Intel 82599 虚拟功能接口支持高达 10 Gbps 的网络速度。
+
+	C3、C4、D2、I2、R3、和 M4 (m4.16xlarge 除外) 实例使用 Intel 82599 VF 接口实现增强联网。要了解哪些实例类型支持 10 Gbps 网络速度，请参阅实例类型矩阵。
+
+- Elastic Network Adapter (ENA)
+对于支持的实例类型，弹性网络适配器 (ENA) 支持高达 25 Gbps 的网络速度。
+
+	F1、G3、I3、P2、R4、X1 和 m4.16xlarge 实例使用 Elastic Network Adapter 来实现增强联网。要了解哪些实例类型支持 25 Gbps 网络速度，请参阅实例类型矩阵。
 
 # [敬请期待——Amazon EC2 Elastic GPU](https://aws.amazon.com/cn/blogs/china/in-the-work-amazon-ec2-elastic-gpu/)
 
+通过OpenGL的方式进行调用，用于解决CAD工具的图形渲染问题。
 
 # [Amazon Lightsail – 兼具 AWS 的强大功能与 VPS 的简易性](https://aws.amazon.com/cn/blogs/china/amazon-lightsail-the-power-of-aws-the-simplicity-of-a-vps/)
 
