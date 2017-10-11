@@ -1,6 +1,10 @@
 # 技术发展
 
-SSD、SCM
+SSD、SCM（storage-class memory；存储级内存）
+
+https://zhuanlan.zhihu.com/p/23860779
+
+3d xpoint性能是flash性能的1000倍，做成硬盘后相比现有SSD盘提升4～5倍
 
 # 发展方向 
 
