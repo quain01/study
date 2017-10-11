@@ -1,0 +1,9 @@
+Cloud
+	计算
+		阿里云实例规格
+			https://help.aliyun.com/document_detail/25378.html?spm=5176.doc55240.2.1.fLAwRI#heterogeneouscompute
+		AWS实例类型
+			https://aws.amazon.com/cn/ec2/instance-types/
+	网络
+		Google
+			http://zeepen.com/2015/12/31/20151231-dive-into-google-data-center-networks/
