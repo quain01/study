@@ -65,3 +65,5 @@ SD-WAN是将SDN技术应用到广域网场景中所形成的一种服务，这�
 - 第二类推动者是原有提供网络设备的主流厂家，其提供的SD-WAN产品是基于原有企业CPE设备的NFV化，或者原有WAN网络设备的SDN化。例如Cisco最早推出的IWAN解决方案，同步于Hybrid WAN的概念问世，提供企业组网的vCPE设备，以及阿朗（现Nokia）收购的Nuage提供的SD-WAN产品。
 - 第三类推动者是startup公司，如2012年成立的Versa networks，VeloCloud。相比传统的广域网优化公司而言，其SD-WAN的解决方案更多地集中在第二类和第三类解决方案，部分还提供运营的SD-WAN服务，如Aryaka。这些公司成立时间虽不长，但基于典型的客户需求和业务场景切入技术方案和产品研发，很快在市场上占据一席之地。
 - 第四类也是最重要的一类推动者是提供企业组网服务的运营商，一方面源于企业用户互联服务的需要，另一方面也是顺应网络“软件化”和“云化”转型的需求。运营商中部署SD-WAN的先驱是Verizon以及AT&T，Verizon早在2015年就与Versa network进行了合作，而2016年宣布采用VeloCloud的SD-WAN平台。AT&T 2016年推出了Netbond服务，为其企业用户提供VPN连接，满足企业网络与各种合作伙伴的公有云或者IT服务连接的需求。
+
+# [SD-WAN：落地后的价值](http://www.d1net.com/iv/corporation/484192.html)
