@@ -14,6 +14,7 @@
 - AWS re'invent 大会
     - [2016（新产品）](https://aws.amazon.com/cn/new/reinvent/)
     - [2017（即将举办）](https://reinvent.awsevents.com/) 
+- 行业分析报告（分布式技术） 
 
 瞄准IaaS服务
 
