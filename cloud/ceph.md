@@ -14,3 +14,11 @@ Ceph是一个统一的、分布式的文件存储系统，可以提供高性能�
 3. CephFS是一个分布式文件系统。
 4. LIBRADOS库允许程序直接访问RADOS。
 
+## [在Ceph上使用Hadoop](http://docs.ceph.org.cn/cephfs/hadoop/)
+
+Ceph 文件系统可作为 Hadoop 文件系统（HDFS）的落地式替代品。
+
+依赖关系:
+- CephFS 的 Java 接口
+- Hadoop 的 CephFS 插件
+

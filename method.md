@@ -15,6 +15,7 @@
     - [2016（新产品）](https://aws.amazon.com/cn/new/reinvent/)
     - [2017（即将举办）](https://reinvent.awsevents.com/) 
 - 行业分析报告（分布式技术社区） 
+- [Google研究论文](https://research.google.com/pubs/papers.html)
 - Open Networking Summit
 - sigcomm
 

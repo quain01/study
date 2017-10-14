@@ -1,0 +1,1 @@
+[谷歌如何通过全球级工程打造全球级基础架构](http://www.infoq.com/cn/articles/how-google-build-a-global-infrastructure)

@@ -8,7 +8,9 @@
 3. [Google数据中心网络技术漫谈](http://www.sdnlab.com/12700.html)
 4. [走近Google基于SDN的B4网络](http://www.csdn.net/article/2013-11-25/2817613)
 5. [揭秘Google数据中心网络B4](http://www.sdnlab.com/sdn-guide/14868.html)
-6. [A Look Inside Google's Data Center Network](https://youtu.be/FaAZAII2x0w)，2015 Open Netwroking Summit大会Google Amin的演讲视频
+6. [A Look Inside Google's Data Center Network](https://youtu.be/FaAZAII2x0w)，2015 Open Netwroking Summit大会Google Amin的演讲视频(ONS 2015: Wednesday Keynote - Amin Vahdat)
+7. [2017 Google Networking Research Summit Keynote Talks](https://www.youtube.com/watch?v=5N7QS5vP68o)
+8. [Evolution of SDN in Google’s Network Infrastructure- Vijoy Pandey](https://www.youtube.com/watch?v=SjdHoYbM7yM)
 
 ## Google数据中心网络技术[（原文）](http://www.sdnlab.com/12700.html)
 
@@ -43,3 +45,21 @@ Google 观察到，数据中心中的流量是有不同优先级的：
 - 第一，利用多级互连的Clos拓扑网络技术，使得Google可以通过商业交换芯片来搭建大规模的交换网络系统。
 - 第二，传统网络中大量通用的，分布式的，非常复杂的网络路由和管理协议虽然可以支持任意的部署方式，但是这对于需要单一操作平面的数据中心网络却矫枉过正了。Google建立了中心化控制的，支持全局配置的数据中心网络。
 - 第三，模块化的硬件设计加上简单的、高可靠性的软件使得Google可以设计出同时支持数据中心内部集群间路由和外部广域网路由的系统。
+
+# [为什么Google网络需要5个控制器？](http://www.sdnlab.com/17962.html)
+
+[演讲视频](https://www.youtube.com/watch?v=SjdHoYbM7yM)
+
+![GoogleNetwork](img/Google-Network-Infrastructure.PNG)
+
+- 第一个控制器Firepath，Jupiter使用一个集中式控制器Firepath
+- 第二个控制器Andromeda上增加网络虚拟化，网络变得更加敏捷
+- 第三个控制器与B4网络密切相关，B4网络是连接Google数据中心的网络
+- 第四个控制器简称TE控制器（TE是流量工程的首字母缩写），它使用策略来处理流量
+- 第五个控制器BwE的产生，运行集中带宽分配算法，在主机上执行决策，它可以发现哪些用户被困在瓶颈链路上，还能让用户之间共享广域网带宽。BwE还能将其收集的使用信息反馈给TE控制器，以进一步帮助B4相关的路径进行决策
+
+# 网络架构思考
+
+1. 系统全局的网络架构：RDC、边缘网络站点、用户
+2. AWS的边缘网络站点提供什么功能？
+3. Google的整体网络架构是否包括POP点？

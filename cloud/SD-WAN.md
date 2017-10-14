@@ -67,3 +67,5 @@ SD-WAN是将SDN技术应用到广域网场景中所形成的一种服务，这�
 - 第四类也是最重要的一类推动者是提供企业组网服务的运营商，一方面源于企业用户互联服务的需要，另一方面也是顺应网络“软件化”和“云化”转型的需求。运营商中部署SD-WAN的先驱是Verizon以及AT&T，Verizon早在2015年就与Versa network进行了合作，而2016年宣布采用VeloCloud的SD-WAN平台。AT&T 2016年推出了Netbond服务，为其企业用户提供VPN连接，满足企业网络与各种合作伙伴的公有云或者IT服务连接的需求。
 
 # [SD-WAN：落地后的价值](http://www.d1net.com/iv/corporation/484192.html)
+
+# [关于DCI中传输网络的一些探讨](http://www.sdnlab.com/18604.html)
