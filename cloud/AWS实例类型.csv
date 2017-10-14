@@ -1,0 +1,68 @@
+实例类型,vCPU,内存 (GiB),?存储 (GB),联网性能,物理处理器,时钟速度 (GHz),Intel AVX?,Intel AVX2?,Intel Turbo,EBS OPT?,增强型联网?
+i3.large,2,15.25,1 个 475 NVMe SSD,高达 10Gb,Intel Xeon E5-2686 v4,2.3,是,是,是,是,是
+i3.xlarge,4,30.5,1 个 950 NVMe SSD,高达 10Gb,Intel Xeon E5-2686 v4,2.3,是,是,是,是,是
+i3.2xlarge,8,61,1 个 1900 NVMe SSD,高达 10Gb,Intel Xeon E5-2686 v4,2.3,是,是,是,是,是
+i3.4xlarge,16,122,2 个 1900 NVMe SSD,高达 10Gb,Intel Xeon E5-2686 v4,2.3,是,是,是,是,是
+i3.8xlarge,32,244,4 个 1900 NVMe SSD,10Gb,Intel Xeon E5-2686 v4,2.3,是,是,是,是,是
+i3.16large,64,488,8 个 1900 NVMe SSD,25Gb,Intel Xeon E5-2686 v4,2.3,是,是,是,是,是
+d2.xlarge,4,30.5,3 x 2000,适中,Intel Xeon E5-2676 v3,2.4,是,是,是,是,是
+d2.2xlarge,8,61,6 x 2000,高,Intel Xeon E5-2676 v3,2.4,是,是,是,是,是
+d2.4xlarge,16,122,12 x 2000,高,Intel Xeon E5-2676 v3,2.4,是,是,是,是,是
+d2.8xlarge,36,244,24 x 2000,10Gb,Intel Xeon E5-2676 v3,2.4,是,是,是,是,是
+p2.xlarge,4,61,仅限于 EBS,高,Intel Xeon E5-2686 v4,2.3 (base),是,是,是,是,是
+,,,,,,2.7 (turbo),,,,,
+p2.8xlarge,32,488,仅限 EBS,10Gb,Intel Xeon E5-2686 v4,2.3 (base),是,是,是,是,是
+,,,,,,2.7 (turbo),,,,,
+p2.16xlarge,64,732,仅限 EBS,25Gb,Intel Xeon E5-2686 v4,2.3 (base),是,是,是,是,是
+,,,,,,2.7 (turbo),,,,,
+g3.4xlarge,16,122,仅限 EBS,高达 10Gb,Intel Xeon E5-2686 v4?,2.3 (base),是,是,是,是,是
+,,,,,,2.7 (turbo),,,,,
+g3.8xlarge,32,244,仅限于 EBS,10Gb,Intel Xeon E5-2686 v4?,2.3 (base),是,是,是,是,是
+,,,,,,2.7 (turbo),,,,,
+g3.16xlarge,64,488,仅限 EBS,25Gb,Intel Xeon E5-2686 v4?,2.3 (base),是,是,是,是,是
+,,,,,,2.7 (turbo),,,,,
+f1.2xlarge,8,122,480 SSD,高达 10Gb,Intel Xeon E5-2686 v4,2.3 (base),是,是,是,是,是
+,,,,,,2.7 (turbo),,,,,
+f1.16xlarge,64,976,4 x 960,25Gb,Intel Xeon E5-2686 v4,2.3 (base),是,是,是,是,是
+,,,,,,2.7 (turbo),,,,,
+x1.16large,64,976,1 个 1920 SSD,10Gb,Intel Xeon E7-8880 v3,2.3,是,是,是,是,是
+x1.32xlarge,128,1952,2 个 1920 SSD,25Gb,Intel Xeon E7-8880 v3,2.3,是,是,是,是,是
+x1e.32xlarge,128,3904,2 个 1920 SSD,25Gb,Intel Xeon E7-8880 v3,2.3,是,是,是,是,是
+r4.large,2,15.25,-,高达 10Gb,Intel Xeon E5-2686 v4,2.3,是,是,是,是,是
+r4.xlarge,4,30.5,-,高达 10Gb,Intel Xeon E5-2686 v4,2.3,是,是,是,是,是
+r4.2xlarge,8,61,-,高达 10Gb,Intel Xeon E5-2686 v4,2.3,是,是,是,是,是
+r4.4xlarge,16,122,-,高达 10Gb,Intel Xeon E5-2686 v4,2.3,是,是,是,是,是
+r4.8xlarge,32,244,-,10Gb,Intel Xeon E5-2686 v4,2.3,是,是,是,是,是
+r4.16xlarge,64,488,-,25Gb,Intel Xeon E5-2686 v4,2.3,是,是,是,是,是
+r3.large,2,15.25,1 x 32 SSD,适中,Intel Xeon E5-2670 v2,2.5,是,–,是,–,是
+r3.xlarge,4,30.5,1 x 80 SSD,适中,Intel Xeon E5-2670 v2,2.5,是,–,是,是,是
+r3.2xlarge,8,61,1 x 160 SSD,高,Intel Xeon E5-2670 v2,2.5,是,–,是,是,是
+r3.4xlarge,16,122,1 x 320 SSD,高,Intel Xeon E5-2670 v2,2.5,是,–,是,是,是
+r3.8xlarge,32,244,2 x 320 SSD,10Gb,Intel Xeon E5-2670 v2,2.5,是,–,是,–,是
+c4.large,2,3.75,仅限于 EBS,适中,Intel Xeon E5-2666 v3,2.9,是,是,是,是,是
+c4.xlarge,4,7.5,仅限于 EBS,高,Intel Xeon E5-2666 v3,2.9,是,是,是,是,是
+c4.2xlarge,8,15,仅限于 EBS,高,Intel Xeon E5-2666 v3,2.9,是,是,是,是,是
+c4.4xlarge,16,30,仅限于 EBS,高,Intel Xeon E5-2666 v3,2.9,是,是,是,是,是
+c4.8xlarge,36,60,仅限于 EBS,10Gb,Intel Xeon E5-2666 v3,2.9,是,是,是,是,是
+c3.large,2,3.75,2 x 16 SSD,适中,Intel Xeon E5-2680 v2,2.8,是,–,是,–,是
+c3.xlarge,4,7.5,2 x 40 SSD,适中,Intel Xeon E5-2680 v2,2.8,是,–,是,是,是
+c3.2xlarge,8,15,2 x 80 SSD,高,Intel Xeon E5-2680 v2,2.8,是,–,是,是,是
+c3.4xlarge,16,30,2 x 160 SSD,高,Intel Xeon E5-2680 v2,2.8,是,–,是,是,是
+c3.8xlarge,32,60,2 x 320 SSD,10Gb,Intel Xeon E5-2680 v2,2.8,是,–,是,–,是
+t2.nano,1,0.5,仅限 EBS,低,Intel Xeon 系列,最多 3.3 个,是,–,是,–,–
+t2.micro,1,1,仅限于 EBS,低到中等,Intel Xeon 系列,最多 3.3 个,是,–,是,–,–
+t2.small,1,2,仅限于 EBS,低到中等,Intel Xeon 系列,最多 3.3 个,是,–,是,–,–
+t2.medium,2,4,仅限于 EBS,低到中等,Intel Xeon 系列,最多 3.3 个,是,–,是,–,–
+t2.large,2,8,仅限于 EBS,低到中等,Intel Xeon 系列,最多 3.0 个,是,–,是,–,–
+t2.xlarge,4,16,仅限于 EBS,适中,Intel Xeon 系列,最多 3.0 个,是,–,是,–,–
+t2.2xlarge,8,32,仅限于 EBS,适中,Intel Xeon 系列,最多 3.0 个,是,–,是,–,–
+m4.large,2,8,仅限于 EBS,适中,Intel Xeon E5-2676 v3**,2.4,是,是,是,是,是
+m4.xlarge,4,16,仅限于 EBS,高,Intel Xeon E5-2676 v3**,2.4,是,是,是,是,是
+m4.2xlarge,8,32,仅限于 EBS,高,Intel Xeon E5-2676 v3**,2.4,是,是,是,是,是
+m4.4xlarge,16,64,仅限于 EBS,高,Intel Xeon E5-2676 v3**,2.4,是,是,是,是,是
+m4.10xlarge,40,160,仅限于 EBS,10Gb,Intel Xeon E5-2676 v3,2.4,是,是,是,是,是
+m4.16xlarge,64,256,仅限 EBS,25Gb,Intel Xeon E5-2686 v4,2.3,是,是,是,是,是
+m3.medium,1,3.75,1 x 4 SSD,适中,Intel Xeon E5-2670 v2*,2.5,是,–,是,–,–
+m3.large,2,7.5,1 x 32 SSD,适中,Intel Xeon E5-2670 v2*,2.5,是,–,是,–,–
+m3.xlarge,4,15,2 x 40 SSD,高,Intel Xeon E5-2670 v2*,2.5,是,–,是,是,–
+m3.2xlarge,8,30,2 x 80 SSD,高,Intel Xeon E5-2670 v2*,2.5,是,–,是,是,–

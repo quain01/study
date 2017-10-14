@@ -14,6 +14,12 @@
 6. 运营
 7. 运维
 
+# 实例规格对比
+
+- [AWS实例类型](https://aws.amazon.com/cn/ec2/instance-types/)
+
+- [阿里云实例规格](https://help.aliyun.com/document_detail/25378.html?spm=5176.doc55240.2.1.fLAwRI#heterogeneouscompute)
+
 # 疑问
 
 1. 安全中IPS/IDS有何区别？
